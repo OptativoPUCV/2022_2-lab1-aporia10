@@ -144,3 +144,15 @@ Fri 12 Aug 2022 05:16:33 PM UTC:
  tests:  2|5
 total_score: 20/70
 8ab02e1
+Fri 12 Aug 2022 05:18:01 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘asignarValor’:
+exercises.c:87:6: error: implicit declaration of function ‘obtenerValor’ [-Werror=implicit-function-declaration]
+   87 |   *v=obtenerValor(v,i);
+      |      ^~~~~~~~~~~~
+exercises.c:87:6: error: incompatible types when assigning to type ‘Vector’ from type ‘int’
+cc1: all warnings being treated as errors
+Compilation failed
+2e6cbf3
