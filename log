@@ -87,3 +87,27 @@ exercises.c:40:17: error: expected expression before ‘]’ token
       |                 ^
 Compilation failed
 0d8a607
+Fri 12 Aug 2022 05:04:57 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:40:15: error: passing argument 1 of ‘sumaN’ makes pointer from integer without a cast [-Werror=int-conversion]
+   40 |   *suma=sumaN(*a,n)-sumaN(*a,n-m);
+      |               ^~
+      |               |
+      |               int
+exercises.c:21:15: note: expected ‘int *’ but argument is of type ‘int’
+   21 | int sumaN(int a[], int N) {
+      |           ~~~~^~~
+exercises.c:40:27: error: passing argument 1 of ‘sumaN’ makes pointer from integer without a cast [-Werror=int-conversion]
+   40 |   *suma=sumaN(*a,n)-sumaN(*a,n-m);
+      |                           ^~
+      |                           |
+      |                           int
+exercises.c:21:15: note: expected ‘int *’ but argument is of type ‘int’
+   21 | int sumaN(int a[], int N) {
+      |           ~~~~^~~
+cc1: all warnings being treated as errors
+Compilation failed
+67f1606
