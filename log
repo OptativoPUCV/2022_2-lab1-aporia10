@@ -167,3 +167,9 @@ exercises.c:87:9: error: implicit declaration of function ‘obtenerValor’ [-W
 cc1: all warnings being treated as errors
 Compilation failed
 2aa62f6
+Fri 12 Aug 2022 05:18:51 PM UTC: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  2|5
+total_score: 20/70
+4f4b132
