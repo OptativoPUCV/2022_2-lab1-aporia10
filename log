@@ -71,3 +71,9 @@ exercises.c:112:6: error: incompatible types when assigning to type ‘Vector’
 cc1: all warnings being treated as errors
 Compilation failed
 3397057
+Fri 12 Aug 2022 04:55:16 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  1|6
+total_score: 10/70
+d41de4c
