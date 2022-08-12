@@ -210,3 +210,9 @@ exercises.c:60:11: error: ‘p’ is used uninitialized [-Werror=uninitialized]
 cc1: all warnings being treated as errors
 Compilation failed
 d604bcb
+Fri 12 Aug 2022 05:36:12 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|5
+total_score: 20/70
+836142a
