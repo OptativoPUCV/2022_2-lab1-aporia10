@@ -57,3 +57,17 @@ exercises.c:21:5: note: declared here
       |     ^~~~~
 Compilation failed
 92faf1f
+Fri 12 Aug 2022 04:54:47 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV2’:
+exercises.c:112:9: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+  112 |   *c=(a1,a2)+(b1+b2);
+      |         ^
+exercises.c:112:6: error: incompatible types when assigning to type ‘Vector’ from type ‘int’
+  112 |   *c=(a1,a2)+(b1+b2);
+      |      ^
+cc1: all warnings being treated as errors
+Compilation failed
+3397057
