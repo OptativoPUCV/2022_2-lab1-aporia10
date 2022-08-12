@@ -127,3 +127,14 @@ Fri 12 Aug 2022 05:05:52 PM UTC:
  tests:  2|5
 total_score: 20/70
 44282ed
+Fri 12 Aug 2022 05:13:43 PM UTC: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:77:8: error: variable ‘a’ set but not used [-Werror=unused-but-set-variable]
+   77 |   int *a;
+      |        ^
+cc1: all warnings being treated as errors
+Compilation failed
+35a7528
