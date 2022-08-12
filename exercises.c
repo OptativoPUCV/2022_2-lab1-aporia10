@@ -61,7 +61,6 @@ Persona* crearPersona(char nombre[], char rut[], int edad) {
   strcpy(p->rut,rut);
   p->edad=edad;
   return p;
-   return NULL;
 }
 
 /*
@@ -78,8 +77,10 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-  
-  return NULL;
+  Vector*v=(Vector*)malloc(sizeof(Vector));
+  v->datos=(int*)calloc(n,sizeof(int));
+  v->capacidad=n;
+  return v;
 }
 
 /*
@@ -97,6 +98,7 @@ Programe la función int obtenerValor(Vector * v, int i),
 la cual retorna el valor en la posición i del vector v.
 */
 int obtenerValor(Vector * v, int i) {
+  
    return 0;
 }
 
