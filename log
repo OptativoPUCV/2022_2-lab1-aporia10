@@ -234,3 +234,17 @@ Mon 15 Aug 2022 12:23:42 AM UTC:
  tests:  4|3
 total_score: 40/70
 504e807
+Mon 15 Aug 2022 12:24:23 AM UTC: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘obtenerValor’:
+exercises.c:101:11: error: statement with no effect [-Werror=unused-value]
+  101 |   v->datos[i];
+      |   ~~~~~~~~^~~
+exercises.c:102:10: error: returning ‘Vector *’ from a function with return type ‘int’ makes integer from pointer without a cast [-Werror=int-conversion]
+  102 |   return v;
+      |          ^
+cc1: all warnings being treated as errors
+Compilation failed
+2c4abb0
