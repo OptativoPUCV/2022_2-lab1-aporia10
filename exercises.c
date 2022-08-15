@@ -98,8 +98,7 @@ Programe la función int obtenerValor(Vector * v, int i),
 la cual retorna el valor en la posición i del vector v.
 */
 int obtenerValor(Vector * v, int i) {
-  v->datos[i];
-  return v;
+  return(v->datos[i]);
    return 0;
 }
 

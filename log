@@ -248,3 +248,9 @@ exercises.c:102:10: error: returning ‘Vector *’ from a function with return 
 cc1: all warnings being treated as errors
 Compilation failed
 2c4abb0
+Mon 15 Aug 2022 12:28:01 AM UTC: 
+ exercises.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+ tests:  6|2
+total_score: 50/70
+af73fe5
